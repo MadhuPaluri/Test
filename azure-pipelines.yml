@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'ubuntu-latest''ubuntu-16.04' # examples of other options: 'macOS-10.13', 'vs2017-win2016'
 
 steps:
 - script: echo Hello, world!
@@ -18,5 +18,3 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-pool:
-  vmImage: 'ubuntu-16.04' # examples of other options: 'macOS-10.13', 'vs2017-win2016'
